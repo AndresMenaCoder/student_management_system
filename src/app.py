@@ -42,7 +42,7 @@ while True:
 
         
         elif option == 4:
-            id_search = int(input("Please enter your ID: ")) -1
+            id_search = int(input("Please enter your ID: ")) 
             New_name = input("please enter your name: ")
             New_age = int(input("Please enter your New age: "))
             New_course = input("Please enter your New course: ")
@@ -56,7 +56,7 @@ while True:
         
         
         elif option == 5:
-            id_search = int(input("Please enter your ID: ")) -1
+            id_search = int(input("Please enter your ID: ")) 
             result = delete_student(students,id_search)
             
             if result:
